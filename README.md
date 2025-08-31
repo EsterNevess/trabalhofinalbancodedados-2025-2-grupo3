@@ -20,7 +20,7 @@ Contém as seguintes informações:
 
 - `id`
 - `nome`
-- `CPF`
+- `cpf`
 - `data_nascimento`
 - `telefone`
 - `email`
@@ -33,8 +33,8 @@ Contém as seguintes informações:
 
 - `id`
 - `nome`
-- `CPF`
-- `CRO` (registro profissional)
+- `cpf`
+- `cro`
 - `especialidade`
 - `horario_atendimento`
 
@@ -43,11 +43,14 @@ Contém as seguintes informações:
 
 Contém as seguintes informações:
 
-- `id`
-- `paciente` (relacionamento com tabela Pacientes)
-- `dentista_responsavel` (relacionamento com tabela Dentistas)
-- `data_horario`
-- `descricao_atendimento`
+- `id_consulta`
+-  `id_dentista`
+-  `id_paciente`
+- `dentista_responsavel` (relacionamento com tabela dentista)
+- `paciente` (relacionamento com tabela paciente)
+- `data`
+- `horario`
+- `descricao`
 - `prescricao`
 
 
@@ -55,7 +58,7 @@ Contém as seguintes informações:
 
 Contém as seguintes informações:
 
-- `id`
+- `id_procedimento`
 - `nome`
 - `descricao`
 - `duracao_media`
