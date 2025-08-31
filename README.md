@@ -19,7 +19,7 @@ Foram criadas **4 tabelas** principais no banco de dados:
 Contém as seguintes informações:
 
 - `id`
-- `nome_completo`
+- `nome`
 - `CPF`
 - `data_nascimento`
 - `telefone`
@@ -43,7 +43,7 @@ Contém as seguintes informações:
 Contém as seguintes informações:
 
 - `id`
-- `nome_completo`
+- `nome`
 - `CPF`
 - `CRO` (registro profissional)
 - `especialidade`
