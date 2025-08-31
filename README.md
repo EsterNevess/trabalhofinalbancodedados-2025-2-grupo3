@@ -14,7 +14,7 @@ O sistema contempla as seguintes funcionalidades principais:
 
 Foram criadas **4 tabelas** principais no banco de dados:
 
-### 1. Pacientes
+### 1. Paciente
 
 Contém as seguintes informações:
 
@@ -27,18 +27,7 @@ Contém as seguintes informações:
 - `endereco`
 - `historico_consultas`
 
-### 2. Consultas
-
-Contém as seguintes informações:
-
-- `id`
-- `paciente` (relacionamento com tabela Pacientes)
-- `dentista_responsavel` (relacionamento com tabela Dentistas)
-- `data_horario`
-- `descricao_atendimento`
-- `prescricao`
-
-### 3. Dentistas
+### 2. Dentista
 
 Contém as seguintes informações:
 
@@ -49,7 +38,20 @@ Contém as seguintes informações:
 - `especialidade`
 - `horario_atendimento`
 
-### 4. Procedimentos Odontológicos
+
+### 3. Consulta
+
+Contém as seguintes informações:
+
+- `id`
+- `paciente` (relacionamento com tabela Pacientes)
+- `dentista_responsavel` (relacionamento com tabela Dentistas)
+- `data_horario`
+- `descricao_atendimento`
+- `prescricao`
+
+
+### 4. Procedimento
 
 Contém as seguintes informações:
 
