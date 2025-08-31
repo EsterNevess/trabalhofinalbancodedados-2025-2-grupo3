@@ -103,8 +103,8 @@ Foi criada uma `VIEW` com os seguintes campos:
 - `id_consulta`
 - `nome_paciente`
 - `nome_dentista`
-- `data_consulta`
-- `procedimentos_realizados`
+- `data`
+- `procedimentos_descrito`
 
 > Ordenada em ordem **decrescente pela data da consulta**
 
